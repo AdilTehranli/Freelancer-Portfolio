@@ -191,3 +191,66 @@ img {
 .about_section button i:hover{
     color:black;
 }
+.contact_section{
+  height: 300px;
+}
+
+.contact_section h2{
+  font-size: 50px;
+  margin-top: 80px;
+  text-align: center;
+}
+.all_form{
+  width: 100%;
+  justify-content: center;
+  
+}
+.forms{
+padding-top: 90px;
+}
+.form-floating input.form-control{
+  font-size: 1.5rem;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  border-width: 1px;
+}
+.form-floating textarea.form-control{
+  font-size: 1.5rem;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  border-width: 1px;
+}
+.forms button{
+  background-color: #1abc9c;
+  color: white;
+  height: 53px;
+  width: 101px;
+  margin-bottom: 83px;
+}
+footer{
+  background-color: #2C3E50;
+    margin-top: 415px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.all_icons{
+gap: 13px;
+margin-left: 70px;
+}
+.all_icons .icons{
+  border: 1px solid white;
+  width: 60px;
+  height: 55px;
+  border-radius: 36px;
+  text-align: center;
+}
+.all_icons .icons i{
+  color: white;
+  margin-top: 20px;
+}
