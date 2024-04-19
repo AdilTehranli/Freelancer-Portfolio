@@ -201,20 +201,37 @@ img {
   text-align: center;
 }
 .all_form{
-  width: 100%;
-  justify-content: center;
+  margin-top: 40px;
+display: flex;
+justify-content: center;
   
 }
 .forms{
 padding-top: 90px;
 }
-.form-floating input.form-control{
+.form-floating{
+  position: relative;
+}
+label{
+  position: absolute;
+  left: 7px;
+}
+.form-floating input{
+  margin-top: 45px;
   font-size: 1.5rem;
+  width: 600px;
   border-left: 0;
   border-right: 0;
   border-top: 0;
   border-radius: 0;
   border-width: 1px;
+  outline: none;
+}
+textarea{
+  outline: none;
+  width: 600px;
+  margin-top: 40px;
+
 }
 .form-floating textarea.form-control{
   font-size: 1.5rem;
@@ -224,20 +241,23 @@ padding-top: 90px;
   border-radius: 0;
   border-width: 1px;
 }
-.forms button{
+ button{
   background-color: #1abc9c;
   color: white;
-  height: 53px;
-  width: 101px;
+  height: 59px;
+  border-radius: 13px;
+  width: 112px;
+  border: none;
   margin-bottom: 83px;
+
 }
 footer{
   background-color: #2C3E50;
     margin-top: 415px;
-    height: 200px;
     text-align: center;
     display: flex;
     align-items: center;
+    height: 200px;
 }
 .all_icons{
 gap: 13px;
