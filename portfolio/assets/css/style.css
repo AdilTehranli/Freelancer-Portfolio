@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    background-color: #212529;
+    height: 80px;
+}
+.all_nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.all_nav .nav_logo img{
+    width: 200px;
+}
+.nav_lists ul{
+    display: flex;
+    gap: 25px;
+}
+.nav_lists ul li{
+    color: white;
+    list-style: none;
+}
+header{
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+    height: 650px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .header_texts {
+    color: white;
+}
+header .header_texts h3{
+    font-size: 33px;
+
+}
+header .header_texts h1{
+    padding-top: 10px;
+    font-size: 80px !important;
+ }
+header .header_texts button{
+    margin-top: 30px;
+    background-color: #ffc800;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    width: 203px;
+}
+.services_section{
+    text-align: center;
+    
+}
+
+.services_section h1{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.services_section p{
+    margin-top: 20px;
+}
+.services_offers{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.services_offer{
+    
+    width: 27%;
+    text-align: center;
+}
+.services_offer h3{
+    font-size: 27px;
+}
+.services_offer_icon{
+    text-align: center;
+    background-color: #ffc800;
+    border-radius: 139px;
+    width: 93px;
+    display: inline-block;
+    height: 92px;
+}
+.services_offer_icon i{
+    color: white;
+    font-size: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+.portfolio_section{
+    background-color: #F8F9FA;
+}
