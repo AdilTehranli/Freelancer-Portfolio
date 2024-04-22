@@ -11,6 +11,9 @@ nav{
     display: flex;
     background-color: #212529;
     height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
 }
 .all_nav{
     justify-content: space-between;
@@ -100,4 +103,294 @@ header .header_texts button{
 }
 .portfolio_section{
     background-color: #F8F9FA;
+    text-align: center;
+    padding-bottom: 10px;
+
 }
+.portfolio_section h2{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.portfolio_section p{
+    padding-top: 10px;
+}
+.portfolio_card{
+    background-color: white;
+    height: 380px;
+}
+.portfolio_card h3{
+    padding-top: 20px;
+    font-size: 23px;
+}
+.portfolio_cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.portfolio_card_img img{
+    width: 380px;
+}
+.portfolio_card_img{
+    position: relative;
+}
+.portfolio_card_img::after{
+    content: "+";
+    text-align: center;
+    line-height: 270px;
+    font-size: 60px;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(255, 200, 0, 0.9);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    font-weight: 700;
+    font-size: 90px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.portfolio_card_img:hover::after{
+    opacity: 1;
+    transition: 0.5s;
+}
+.about_texts{
+    text-align: center;
+}
+.about_texts h2{
+    margin-top: 70px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.timeline_middle img{
+  border: 6px solid #E9ECEF;
+}
+.timeline{
+  margin-top: 80px;
+  position: relative;
+}
+.timeline::before{
+  width: 40px;
+  height: 1000px;
+  background-color: #ced4da;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+.timeline_left{
+  display: flex;
+  gap: 50px;
+}
+
+.timeline_box_ends{
+}
+.timeline_box_end{
+  margin-left: 26rem;
+  width: 173px;
+  text-align: center;
+  height: 172px;
+  background-color: #ffc800;
+  color: white;
+  border-radius: 50%;
+  border: 6px solid #E9ECEF;
+
+} 
+.timeline_box_end p{
+  display: flex;
+  align-items: center;
+  padding-left: 51px;
+  text-align: center;
+  font-size: 23px;
+  padding-top: 48px;
+}
+
+.timeline >div:nth-child(even){
+width: 50%;
+display: flex;
+margin-left: 32rem;
+justify-content: right;
+margin-bottom: 90px;
+
+
+
+}
+
+.timeline >div:nth-child(odd){
+  width: 50%;
+margin-left: 7rem;  
+text-align: right;
+margin-bottom: 90px;
+  }  
+
+  .section_amazing{
+    text-align: center;
+    background-color: #F8F9FA;
+    padding-bottom: 30px;
+  }
+  .amazing_texts h2 {
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  .amazing_texts{
+    text-align: center;
+  }
+  .amazing_member img{
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50% !important;
+  }
+  .amazing_member{
+    text-align: center;
+  }
+  .amazing_member h3{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .amazing_members{
+    margin-top: 65px;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  .amazing_member_icons{
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+    display: flex;
+  }
+  .amazing_member_icon{
+    background-color: #212529;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .amazing_member_icon i{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+ 
+
+  .logos img{
+    width: 220px;
+    height: 2.75rem;
+    
+  }
+  .logo_section{
+    height: 110px;
+  }
+  .logos{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .contact_section{
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  }
+  .contact_section h2{
+    padding-top: 60px;
+    font-size: 40px;
+  }
+  .contact_section p {
+    color: #616062;
+  }
+  .contact_forms_left{
+    display: flex;
+    
+    flex-direction: column-reverse;
+  }
+  .contact_forms_left input{
+    height: 61px;
+    margin-bottom: 1.2rem;
+    width: 582px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+.contact_forms_right textarea{
+    width: 35rem;
+    height: 14rem;
+    border-radius: 10px;
+    outline: none;
+}
+  .all_contact_forms{
+    gap: 30px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+  }
+ .contact_forms_left input::placeholder{
+    color: #ced4da;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+ }
+ .contact_forms_right textarea::placeholder{
+    color: #ced4da;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+    padding-top: 25px;
+ }
+ .contact_section button{
+
+
+     margin-top: 30px;
+        background-color: #ffc800;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        height: 64px;
+        border-radius: 8px;
+        border: none;
+        width: 203px;
+        opacity: 0.65;
+        margin-bottom: 90px;
+ }
+
+  
+ footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+    padding-bottom: 25px;
+ }
+ .footer_icons{
+    display: flex;
+    gap: 20px;
+
+ }
+ .footer_icon{
+    width: 40px;
+    height: 40px;
+    background-color: #212529;
+    border-radius: 30px;
+    color: white;
+ }
+ .footer_icon i{
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 12px;
+ }
+ .footer_right_text{
+    display: flex;
+ }
+ .footer_right_text{
+    gap: 20px;
+ }
