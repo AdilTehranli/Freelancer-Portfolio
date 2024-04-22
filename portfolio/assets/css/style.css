@@ -169,17 +169,21 @@ header .header_texts button{
 .timeline_middle img{
   border: 6px solid #E9ECEF;
 }
-.timeline{
-  margin-top: 80px;
+.about_section{
   position: relative;
 }
-.timeline::before{
-  width: 40px;
-  height: 1000px;
-  background-color: #ced4da;
- position: absolute;
- top: 0px;
- left: 0px;
+.timeline{
+  margin-top: 80px;
+}
+
+.hr{
+  width: 2px;
+  height: 1227px;
+  position: absolute;
+  top: 159px;
+  left: 768px;
+  z-index: -1;
+  background-color:#E9ECEF ; 
 }
 .timeline_left{
   display: flex;
