@@ -1,0 +1,529 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.all_nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_list ul {
+    display: flex;
+    gap: 40px;
+}
+.nav_list ul li{
+    list-style: none;
+    color: #6A6B6C;
+
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.nav_list ul li:first-child{
+    font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+background: linear-gradient(84deg, #327186 21.78%, rgba(0, 0, 0, 0.00) 125.66%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav_button button{
+    display: flex;
+width: 161px;
+height: 62px;
+font-weight: 700;
+font-size: 16px;
+padding: 10px;
+border: none;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #F5C362;
+}
+header{
+    background-color: #F9FAFC;
+}
+.all_header{
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.header_left h1{
+    width: 677px;
+    color: #07222C;
+    font-family: Karma;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+.header_left p{
+    color: #565A5B;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    width: 627px;
+    line-height: 150%;
+    margin-top: 30px; 
+}
+#header_hover_text{
+    background: linear-gradient(99deg, #577883 -7.67%, rgba(25, 86, 106, 0.00) 98.87%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Karma;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+.header_right img{
+    width: 550px;
+    height: 550px;
+}
+.header_left_buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+}
+.header_left_buttons .header_left_buttons_dif1{
+
+    display: flex;
+    width: 200px;
+height: 62px;
+font-weight: 700;
+font-size: 16px;
+padding: 10px;
+border: none;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #F5C362;
+}
+.header_left_buttons_dif2{
+    display: flex;
+    width: 200px;
+    height: 62px;
+    padding: 10px;
+
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+    color: #6A6B6C;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background-color: #fff;
+border: 1px solid #309DC1;
+}
+.employee_section{
+    background-color: #0166FF;
+    height: 150px;
+}
+.employee{
+    padding-top: 45px;
+    color: white;
+}
+.all_employee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.employee h3{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.employee_stick{
+    margin-top: 35px;
+    width: 1px;
+    height: 70px;
+    background-color: white;    
+}
+.benefit_section{
+    background-color: #F9FAFC;
+}
+.benefit_texts{
+    padding-top: 50px;
+    text-align: center;
+}
+.benefit_texts h2{
+    color: #07222C;
+text-align: center;
+font-family: Karma;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%; /
+}
+.benefit_texts p{
+    margin-top: 20px;
+    color: #565A5B;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%;
+}
+.all_benefit_cards{
+    margin-top:60px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefit_card{
+    width: 235px;
+    height: 236px;
+flex-shrink: 0;
+border-radius: 25px;
+background: #FFF;
+padding-left: 25px;
+}
+.benefit_card h3{
+    color: #07222C;
+font-family: Karma;
+margin-top: 20px;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+.benefit_card p{
+    color: #565A5B;
+    margin-top: 10px;
+    font-family: Poppins;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+.benefit_card_icon2{
+    margin-top: 30px;
+    width: 75px;
+    height: 73px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #99BE47;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.benefit_card_icon{
+    margin-top: 30px;
+    width: 75px;
+    height: 73px;
+    flex-shrink: 0;
+    border-radius: 15px;
+background: #3D81C2;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.benefit_card_icon i{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+.course_section{
+    background-color: #F9FAFC;   
+}
+.all_course{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+.course_image img{
+    width: 550px;
+    height: 410px;
+}
+.course_texts h2{
+    color: #06053A;
+    font-family: "Roboto Slab";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+.course_texts p{
+    color: #565A5B;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.course_texts button{
+    display: flex;
+    width: 200px;
+    height: 62px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #F5C362;
+    margin-top: 30px;
+}
+.popular_section{
+    background-color: #F9FAFC;
+    padding-top: 80px;
+}
+.popular_texts{
+    text-align: center;
+}
+.popular_texts h2{
+    color: #07152F;
+
+text-align: center;
+font-family: "Roboto Slab";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+.popular_texts p{
+
+    color: #6A6B6C;
+    
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.all_popular{
+    margin-top: 50px;
+}
+.popular_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.popular_card{
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 300px;
+    height: 381px;
+    flex-shrink: 0;
+}
+.popular_text{
+    padding-left: 30px;
+}
+.popular_card_img img{
+    width: 100%;
+}
+.popular_card h3{
+    color: #07152F;
+
+font-family: "Roboto Slab";
+font-size: 20px;
+font-style: normal;
+margin-top: 25px;
+font-weight: 700;
+line-height: 125%; 
+}
+.all_popular_card_rating{
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+.popular_card_rating{
+    color: #F1C40F;
+}
+.popular_card_rating_texts{
+    display: flex;
+    gap: 10px;
+}
+.popular_text button{
+    display: flex;
+    width: 241px;
+    height: 41px;
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 39px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #6A6B6C;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px 1px 29px 29px;
+    background-color: #fff;
+    border: 1px solid #309DC1;
+}
+.popular_section .popular_button{
+    display: flex;
+    width: 181px;
+    height: 52px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #F5C362;
+    margin: auto;
+    margin-top: 30px;
+}
+.student_section{
+    background-color: #F9FAFC;
+    padding-top: 100px;
+}
+.student_texts{
+    text-align: center;
+}
+.student_texts h2{
+    color: #190D30;
+
+text-align: center;
+font-family: "Roboto Slab";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+.student_texts p{
+    color: #534D5E;
+
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%
+}
+.student_cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+}
+.student_card:nth-child(2){
+    height: 380px;
+}
+.student_card{
+    padding-left: 30px;
+    padding-right: 30px;
+border-radius: 20px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+width: 346px;
+height: 359px;
+flex-shrink: 0;
+}
+.student_card h2{
+    margin-top: 40px;
+}
+.student_card p{
+    margin-top: 15px;
+}
+.student_sticky{
+    width: 100%;
+    margin-top: 30px;
+    height: 1px;
+    background-color: #B1B3B6;
+}
+.students{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.student_title p{
+    margin-bottom: 5px;
+}
+footer{
+    background-color: hsl(216, 100%, 50%);
+
+}
+.all_footer{
+    padding-top: 90px;
+    display: flex;  
+    justify-content: center;
+    justify-content:space-between; 
+}
+.footer_icons{
+    display: flex;
+    gap: 15px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer_icon_facebook{
+    background-color: #40839D;
+    width: 30px;
+    border-radius: 30px;
+    height: 20px;
+
+}
+.footer_item p{
+    color: var(--Pure-white, #FFF);
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+.footer_item ul {
+    list-style: none;
+    color: white;
+}
+.footer_item ul li{
+    margin-top: 15px;
+}
+.footer_sticky{
+    width: 70%;
+    display: flex;
+    height: 2px;
+    margin: auto;
+    margin-top: 93px;
+    background-color: white;
+}
+.footer_text{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
