@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    width: 40%;
+    height: 600px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(4,1fr);
+grid-gap: 10px;    
+    background-color: black;
+    grid-template-areas: "bir bir bir"
+    "iki iki uc"
+    "dord bes uc"
+    "alti alti alti"
+    ;
+
+}
+.item{
+background-color: blue;
+
+}
+.item:nth-child(1){
+    grid-area: bir;
+}
+.item:nth-child(2){
+    grid-area: iki;
+}
+.item:nth-child(3){
+    grid-area: uc;
+}
+.item:nth-child(4){
+    grid-area: dord;
+}
+.item:nth-child(5){
+    grid-area: bes;
+}
+.item:nth-child(6){
+    grid-area: alti;
+}

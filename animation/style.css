@@ -209,7 +209,6 @@ body {
 } */
 
 
-/* task 5 cehd gosterilib amma tam yazilmayib  
 .transi{
     position: relative;
     background-color: orange;
@@ -217,28 +216,30 @@ body {
     height: 40px;
     color: white;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
 }
-.transi::after, .transi::before 
+.transi::after
 {
     content: "";
     position: absolute;
-}
-.transi::after{
-    width: 20px;
-    height: 20px;
+    width: 100%;
+    height: 100%;
     top: 0;
-    background-color: blue;
-}
-.transi:hover{
-    z-index: 2;
-}
-.transi::before{
-    height: 20px;
-    bottom: 0;
     left: 0;
     background-color: blue;
-    width: 20px;
-}   */
+    transform: scale(0);
+    transition: .5s;
+    transform-origin: top;
+    z-index: -1;
+}
+.transi:hover::after{
+    /* z-index: 2; */
+    transform: scale(1);
+
+}
 
 
 /* task 6
