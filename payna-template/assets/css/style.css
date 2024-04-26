@@ -247,6 +247,7 @@ font-weight: 400;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .save{
     padding-top: 90px;
@@ -255,8 +256,9 @@ font-weight: 400;
     position: relative;
 }
 .save_img img{
+    width: 100%;
     border-radius: 45px;
-    height: 317px;
+    height: 362px;
 }
 .save_img_play{
     position: absolute;
@@ -294,4 +296,49 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; 
+}
+.save_form input{
+    border-radius: 50px;
+    background: #F5F6FB;
+    width: 297px;
+    height: 38px;
+    border: none;
+    outline: none;
+}
+.save_form{
+    position: relative;
+}
+.save_form input::placeholder{
+    color: #575455;
+
+    font-family: Poppins;
+    font-size: 16px;
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.save_btn{
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 50px;
+    background: #1F7CFF;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.save_btn a{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+text-decoration: none;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 180px;
 }

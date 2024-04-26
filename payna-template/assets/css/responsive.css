@@ -1,4 +1,4 @@
-@media (max-width:968px){
+@media (max-width:992px){
     .nav_list{
         display: none;
     }
@@ -15,6 +15,17 @@
         width: 100%;
         text-align: center;
     }
+    .save_right{
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .work_items{
+        width: 273px;
+    }
+    .brands img{
+        width: 86px;
+    }
 }
 @media(max-width:568px){
     .nav_button{
@@ -23,4 +34,23 @@
     .header_left{
         text-align: left;
     }
+    .save_img{
+        display: flex;
+        justify-content: center;
+    }
+    .save_img img{
+        height: 300px;
+        width: 83%;
+    }
+    .save_img_play img{
+        width: 53px;
+        height: 43px;
+    }
+    .save_btn{
+        top: 46px;
+        display: flex;
+        width: 86%;
+        left: 28px;
+    }
+
 }
