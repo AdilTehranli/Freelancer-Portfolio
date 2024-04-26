@@ -27,7 +27,7 @@
         width: 86px;
     }
 }
-@media(max-width:568px){
+@media(max-width:576px){
     .nav_button{
         display: none;
     }
