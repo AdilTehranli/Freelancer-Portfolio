@@ -1,0 +1,54 @@
+@media (max-width:576px){
+    .nav_list{
+        display: none;
+    }
+    .all_header{
+  flex-direction: column-reverse;
+    }
+    .nav_icon{
+        display: block;
+    }
+    .nav_btn{
+        display: none;
+    }
+    .header_right img{
+        width: 380px;
+    }
+    .header_left{}
+    .header_left h1{  
+        text-align: center;
+        display: flex;
+        padding-left: 78px;
+        justify-content: center;
+    }
+    .header_left p{
+        text-align: center;
+        display: flex;
+        padding-left: 78px;
+        justify-content: center;
+    }
+    .header_btn {
+        width: 156px;
+        display: flex;
+        justify-content: center;
+    }
+    .commer_item{
+        margin: 0px;
+        padding: 0px;
+        flex-wrap: wrap;
+        width: 379px;
+        height: 322px;
+    }
+    .commer_item_texts{
+        padding: 13px;
+    }
+    .commer_item_img{
+        
+    }
+    .commer_item_img img{
+        width: 379px;
+        padding: 31px 107px 10px;
+        height: 155px;
+    }
+    }
+
