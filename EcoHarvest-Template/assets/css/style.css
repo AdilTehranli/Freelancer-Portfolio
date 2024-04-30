@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+}
+.header_right{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 13px;
+}
+.header_icons{
+    background-color: white;
+    text-align: center;
+    width: 77px;
+    gap: 10px;
+}
+header{
+    height: 800px;
+    background-image: url("https://ecoharvest.farm/2-min.jpg");
+    background-size: cover;
+}
+.nav_logo img{
+    width: 180px;
+}
+nav{
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_lists ul{
+display: flex;
+    text-decoration: none;
+    list-style: none;
+gap: 30px;
+}
+.nav_lists ul li{
+}
+.nav_right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav_icons{
+    display: flex;
+    margin-right: 15px;
+    gap: 10px;
+}
+.nav_icon_search{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+.nav_icon_bar{
+    background-color: green;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+        justify-content: center;
+}
+
+.header_text{
+    padding-top: 282px;
+    width: 388px;
+    text-align: center;
+}
+.header_btn {
+display: flex;
+gap: 30px;
+}
+.header_btn .btn1{
+    background-color: green;
+    width: 145px;
+    height: 46px;
+    color: white;
+    display: flex;
+    justify-content: center;    
+    text-decoration: none;
+    align-items: center;
+}
+.header_btn .btn2{
+    background-color: brown;
+    width: 170px;
+    height: 46px;
+    color: white;
+    display: flex;
+    justify-content: center;    
+    text-decoration: none;
+    align-items: center;
+}
+.all_harvest{
+    display: flex;
+    align-items: center;
+}
+.harvest_img img{
+    width: 613px;
+}
+.harvest_text{
+    text-align: center;
+}
+.harvest_text h2{
+    font-size: 40px;
+}
+.harvest_text p{
+    margin-top: 30px;
+}
+.harvest_btn{
+    background-color: green;
+    width: 155px;
+    height: 47px;
+    margin: auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.harvest_btn a{
+    color: white;
+    text-decoration: none;
+
+}
