@@ -94,6 +94,8 @@ display: flex;
 gap: 15px;
 }
 .li_after{
+
+    
     position: relative;
 }
 .li_after::after{
